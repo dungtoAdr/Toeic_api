@@ -1,0 +1,9 @@
+<form action="import_questions.php" method="post" enctype="multipart/form-data">
+    <label for="file">Choose Excel File:</label>
+    <input type="file" name="file" id="file" required><br><br>
+    <label for="images">Upload Images:</label>
+    <input type="file" name="images[]" id="images" multiple><br><br>
+    <label for="audio">Upload Audio:</label>
+    <input type="file" name="audio[]" id="audio" multiple><br><br>
+    <button type="submit" name="import">Upload</button>
+</form>
