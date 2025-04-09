@@ -3,9 +3,9 @@ require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-$servername = "localhost";
+$servername = "http://183.182.118.181/";
 $username = "root";
-$password = "";
+$password = "admin";
 $dbname = "toeic";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
