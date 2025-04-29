@@ -1,5 +1,5 @@
 <?php
-$host = 'http://183.182.118.181:3307/';
+$host = 'localhost';
 $dbname = 'toeic';
 $username = 'root';
 $password = '';
